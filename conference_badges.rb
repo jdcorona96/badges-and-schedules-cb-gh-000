@@ -7,7 +7,7 @@ end
 def batch_badge_creator(arr)
   ret = []
   arr.each do |name|
-    ret.push("Hello, my name is #{name}.")
+    ret.push(badge_maker(name))
   end
   ret
 end
@@ -20,6 +20,7 @@ def assign_rooms(names)
   ret
 end
 
-def printer
+def printer(attendees)
   
+
 end
